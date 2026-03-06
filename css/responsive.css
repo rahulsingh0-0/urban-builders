@@ -1,0 +1,140 @@
+@media (max-width: 1024px) {
+  .property-container {
+    padding: 5rem 3rem;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+  nav,nav.scrolled {
+    padding-inline: 5rem;
+  }
+  .blog-detail-content {
+    text-align: left;
+}
+.contact-details {
+  grid-template-columns: 1fr;
+}
+
+}
+
+@media (max-width: 600px) {
+  nav.scrolled {
+    padding: 0.78rem 2rem;
+    box-shadow :none
+  }
+  .property-container {
+    padding: 3rem 1.5rem;
+  }
+  .property-container .content-side h1 {
+    line-height: normal;
+  }
+
+  .bottom-thumbnails {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav {
+    padding: 1rem 2rem;
+  }
+  .logo img {
+    height: 35px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    font-size: 13px;
+  }
+  .news-section-wrapper {
+    padding: 0 !important;
+  }
+
+  .news-section-nav-btn {
+    display: none;
+  }
+
+  .news-section-slider-window {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .news-section-slider-window::-webkit-scrollbar {
+    display: none;
+  }
+
+  .news-section-track {
+    transition: none;
+  }
+
+  .news-section-card {
+    scroll-snap-align: start;
+  }
+
+  .mobile-menu {
+    width: 100%;
+    max-width: 100%;
+  }
+  .blog-detail-container {
+    padding: 150px 20px 50px 20px;
+}
+.blog-detail-title ,.blog-detail p ,.blog-detail h2, .blog-sidebar h3 , .related-post-content {
+    text-align: left;
+  }
+  .blog-detail-title {
+  line-height: normal;
+
+}
+.news-section-meta{
+ flex-direction: column; 
+}
+}
+
+
+@media (max-width: 600px) {
+  .stats-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+   .stats-container .stat-item .icon{
+    margin: 0;
+  }
+
+    .stats-container .stat-item .counter{
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+   .stats-container .stat-item {
+   min-height: 162px;
+  }
+    .stats-container .stat-item {
+  font-size: 0.75rem;
+  }
+  .contact-details {
+        grid-template-columns: 1fr;
+  }
+    .blog-detail-content ul {
+    padding-left: 30px;
+}
+.blog-detail-meta{
+  flex-wrap: wrap;
+}
+.blog-detail-title {
+  font-size: 30px;
+}
+ .blog-detail-container {
+padding-top: 100px;
+}
+.blog-detail h2{
+  font-size: 24px;
+}
+
+
+
+}

@@ -1,0 +1,8 @@
+@media (max-width:600px){
+  .bottom-thumbnails {
+flex-wrap: wrap;
+  }
+.news-section-meta{
+ flex-direction: column; 
+}
+}
