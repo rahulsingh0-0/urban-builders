@@ -298,6 +298,9 @@ nav.scrolled {
 .mobile-menu.active ul li:nth-child(3) { transition-delay: 0.3s; }
 .mobile-menu.active ul li:nth-child(4) { transition-delay: 0.4s; }
 .mobile-menu.active ul li:nth-child(5) { transition-delay: 0.5s; }
+.mobile-menu.active ul li:nth-child(6) { transition-delay: 0.5s; }
+.mobile-menu.active ul li:nth-child(7) { transition-delay: 0.5s; }
+
 
 .mobile-menu ul li a {
   display: block;
@@ -3234,7 +3237,7 @@ ul li a:hover {
 .popup-modal {
     display: none;
     position: fixed;
-    z-index: 9999;
+    z-index: 99;
     left: 0;
     top: 0;
     width: 100%;
