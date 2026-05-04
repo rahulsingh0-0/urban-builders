@@ -9,7 +9,7 @@ const projectsData = {
             floors: "G+21",
             firm: "Partners",
             constructionDates: "Under Construction",
-            image: "/images/moosa-house.jpeg",
+            image: "/images/moosa-house.png",
             type: ["residential", "commercial"]
         }
     ],
