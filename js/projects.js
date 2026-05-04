@@ -9,7 +9,7 @@ const projectsData = {
             floors: "G+21",
             firm: "Partners",
             constructionDates: "Under Construction",
-            image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800",
+            image: "/images/moosa-house.jpeg",
             type: ["residential", "commercial"]
         }
     ],
