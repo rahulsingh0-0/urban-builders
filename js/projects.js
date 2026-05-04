@@ -6,7 +6,7 @@ const projectsData = {
             company: "USB Constructions",
             buildingName: "Moosa House",
             builtUpArea: "35,000 sq.ft",
-            floors: "G+21",
+            floors: "G+10",
             firm: "Partners",
             constructionDates: "Under Construction",
             image: "/images/moosa-house.png",
